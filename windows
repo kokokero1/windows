@@ -1,6 +1,7 @@
 sudo su &
 sudo apt update
-sudo apt install figlet lolcat -y
+sudo apt install figlet -y
+pip install git+https://github.com/tehmaze/lolcat.git
 wget -O ng.sh https://github.com/kmille36/Docker-Ubuntu-Desktop-NoMachine/raw/main/ngrok.sh > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
